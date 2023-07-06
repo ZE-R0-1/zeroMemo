@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CA5F56082A56BDDA0066CDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56072A56BDDA0066CDCA /* AppDelegate.swift */; };
 		CA5F560A2A56BDDA0066CDCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56092A56BDDA0066CDCA /* SceneDelegate.swift */; };
-		CA5F560C2A56BDDA0066CDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F560B2A56BDDA0066CDCA /* ViewController.swift */; };
 		CA5F560F2A56BDDA0066CDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5F560D2A56BDDA0066CDCA /* Main.storyboard */; };
 		CA5F56122A56BDDA0066CDCA /* zeroMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56102A56BDDA0066CDCA /* zeroMemo.xcdatamodeld */; };
 		CA5F56142A56BDDE0066CDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5F56132A56BDDE0066CDCA /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		CA5F56042A56BDDA0066CDCA /* zeroMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zeroMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5F56072A56BDDA0066CDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5F56092A56BDDA0066CDCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA5F560B2A56BDDA0066CDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA5F560E2A56BDDA0066CDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5F56112A56BDDA0066CDCA /* zeroMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zeroMemo.xcdatamodel; sourceTree = "<group>"; };
 		CA5F56132A56BDDE0066CDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				CA5F56072A56BDDA0066CDCA /* AppDelegate.swift */,
 				CA5F56092A56BDDA0066CDCA /* SceneDelegate.swift */,
-				CA5F560B2A56BDDA0066CDCA /* ViewController.swift */,
 				CA5F560D2A56BDDA0066CDCA /* Main.storyboard */,
 				CA5F56132A56BDDE0066CDCA /* Assets.xcassets */,
 				CA5F56152A56BDDE0066CDCA /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5F560C2A56BDDA0066CDCA /* ViewController.swift in Sources */,
 				CA5F56082A56BDDA0066CDCA /* AppDelegate.swift in Sources */,
 				CA5F560A2A56BDDA0066CDCA /* SceneDelegate.swift in Sources */,
 				CA5F56122A56BDDA0066CDCA /* zeroMemo.xcdatamodeld in Sources */,
