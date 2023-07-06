@@ -14,6 +14,7 @@
 		CA5F56142A56BDDE0066CDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5F56132A56BDDE0066CDCA /* Assets.xcassets */; };
 		CA5F56172A56BDDE0066CDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5F56152A56BDDE0066CDCA /* LaunchScreen.storyboard */; };
 		CA5F56202A56D83D0066CDCA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F561F2A56D83D0066CDCA /* Model.swift */; };
+		CA5F56222A56DA130066CDCA /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA5F56162A56BDDE0066CDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5F56182A56BDDE0066CDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5F561F2A56D83D0066CDCA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CA5F56152A56BDDE0066CDCA /* LaunchScreen.storyboard */,
 				CA5F56182A56BDDE0066CDCA /* Info.plist */,
 				CA5F56102A56BDDA0066CDCA /* zeroMemo.xcdatamodeld */,
+				CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */,
 			);
 			path = zeroMemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				CA5F56082A56BDDA0066CDCA /* AppDelegate.swift in Sources */,
 				CA5F560A2A56BDDA0066CDCA /* SceneDelegate.swift in Sources */,
+				CA5F56222A56DA130066CDCA /* MemoListTableViewController.swift in Sources */,
 				CA5F56122A56BDDA0066CDCA /* zeroMemo.xcdatamodeld in Sources */,
 				CA5F56202A56D83D0066CDCA /* Model.swift in Sources */,
 			);
