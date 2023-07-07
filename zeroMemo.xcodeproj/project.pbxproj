@@ -17,6 +17,7 @@
 		CA5F56222A56DA130066CDCA /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */; };
 		CA5F56242A56E0490066CDCA /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56232A56E0490066CDCA /* ComposeViewController.swift */; };
 		CA5F56282A56E2540066CDCA /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56272A56E2540066CDCA /* UIViewController+Alert.swift */; };
+		CA84351C2A57C8E900533F6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84351B2A57C8E900533F6B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		CA5F56232A56E0490066CDCA /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		CA5F56272A56E2540066CDCA /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		CA84351B2A57C8E900533F6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				CA5F56212A56DA130066CDCA /* MemoListTableViewController.swift */,
 				CA5F56232A56E0490066CDCA /* ComposeViewController.swift */,
 				CA5F56272A56E2540066CDCA /* UIViewController+Alert.swift */,
+				CA84351B2A57C8E900533F6B /* DetailViewController.swift */,
 			);
 			path = zeroMemo;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				CA5F56122A56BDDA0066CDCA /* zeroMemo.xcdatamodeld in Sources */,
 				CA5F56202A56D83D0066CDCA /* Model.swift in Sources */,
 				CA5F56282A56E2540066CDCA /* UIViewController+Alert.swift in Sources */,
+				CA84351C2A57C8E900533F6B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
