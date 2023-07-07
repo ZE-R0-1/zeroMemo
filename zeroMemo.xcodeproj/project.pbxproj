@@ -18,6 +18,7 @@
 		CA5F56242A56E0490066CDCA /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56232A56E0490066CDCA /* ComposeViewController.swift */; };
 		CA5F56282A56E2540066CDCA /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F56272A56E2540066CDCA /* UIViewController+Alert.swift */; };
 		CA84351C2A57C8E900533F6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84351B2A57C8E900533F6B /* DetailViewController.swift */; };
+		CA84351F2A57D05200533F6B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84351E2A57D05200533F6B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CA5F56232A56E0490066CDCA /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		CA5F56272A56E2540066CDCA /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		CA84351B2A57C8E900533F6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CA84351E2A57D05200533F6B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		CA5F56062A56BDDA0066CDCA /* zeroMemo */ = {
 			isa = PBXGroup;
 			children = (
+				CA84351D2A57D04100533F6B /* Data */,
 				CA5F561E2A56D8250066CDCA /* Model */,
 				CA5F56072A56BDDA0066CDCA /* AppDelegate.swift */,
 				CA5F56092A56BDDA0066CDCA /* SceneDelegate.swift */,
@@ -88,6 +91,14 @@
 				CA5F561F2A56D83D0066CDCA /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CA84351D2A57D04100533F6B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA84351E2A57D05200533F6B /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				CA5F56122A56BDDA0066CDCA /* zeroMemo.xcdatamodeld in Sources */,
 				CA5F56202A56D83D0066CDCA /* Model.swift in Sources */,
 				CA5F56282A56E2540066CDCA /* UIViewController+Alert.swift in Sources */,
+				CA84351F2A57D05200533F6B /* DataManager.swift in Sources */,
 				CA84351C2A57C8E900533F6B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
